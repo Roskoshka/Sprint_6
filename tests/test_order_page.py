@@ -21,4 +21,4 @@ class TestOrderPageOrder:
         order_page.click_on_element(button)
         order_page.data_entry_first_form(test_data)
         order_page.data_entry_second_form(test_data)
-        assert order_page.check_display_of_element(OrderPageLocators.BUTTON_CHECK_STATUS_OF_ORDER)
+        assert order_page.check_display_status_of_order

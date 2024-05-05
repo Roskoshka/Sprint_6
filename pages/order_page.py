@@ -43,3 +43,7 @@ class OrderPage(BasePage):
         self.click_on_element(OrderPageLocators.BUTTON_MAKE_ORDER)
         self.wait_visibility_of_element(OrderPageLocators.BUTTON_YES_CONFIRM_ORDER)
         self.click_on_element(OrderPageLocators.BUTTON_YES_CONFIRM_ORDER)
+
+    @allure.step('Проверить, что появилось всплывающее окно с сообщением об успешном создании заказа - статус заказа виден.')
+    def check_display_status_of_order(self):
+        self.check_display_of_element(OrderPageLocators.BUTTON_CHECK_STATUS_OF_ORDER)
