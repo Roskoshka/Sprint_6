@@ -12,7 +12,7 @@ class MainPage(BasePage):
 
     @allure.step('Кликнуть по кнопке "Заказать" на странице')
     def click_on_order_button_on_page(self):
-        self.click_on_element(BasePageLocators.ORDER_BUTTON_IN_HEADER)
+        self.click_on_element(MainPageLocators.ORDER_BUTTON_IN_MAIN)
 
     @allure.step('Кликнуть по "Самокат" в лого хэдера')
     def click_header_logo_scooter(self):
