@@ -13,25 +13,21 @@ class MainPageLocators:
     FAQ_SECTION = (By.XPATH, "//div[contains(@class, 'Home_FAQ')]")
 
     # Вопросы раздела "Вопросы о важном":
-    FAQ_QUESTIONS_ITEMS = {
-        1: [By.XPATH, "//div[@id='accordion__heading-0']/parent::div"],
-        2: [By.XPATH, "//div[@id='accordion__heading-1']/parent::div"],
-        3: [By.XPATH, "//div[@id='accordion__heading-2']/parent::div"],
-        4: [By.XPATH, "//div[@id='accordion__heading-3']/parent::div"],
-        5: [By.XPATH, "//div[@id='accordion__heading-4']/parent::div"],
-        6: [By.XPATH, "//div[@id='accordion__heading-5']/parent::div"],
-        7: [By.XPATH, "//div[@id='accordion__heading-6']/parent::div"],
-        8: [By.XPATH, "//div[@id='accordion__heading-7']/parent::div"]
-    }
+    QUESTION_1 = (By.XPATH, "//div[@id='accordion__heading-0']/parent::div")
+    QUESTION_2 = (By.XPATH, "//div[@id='accordion__heading-1']/parent::div")
+    QUESTION_3 = (By.XPATH, "//div[@id='accordion__heading-2']/parent::div")
+    QUESTION_4 = (By.XPATH, "//div[@id='accordion__heading-3']/parent::div")
+    QUESTION_5 = (By.XPATH, "//div[@id='accordion__heading-4']/parent::div")
+    QUESTION_6 = (By.XPATH, "//div[@id='accordion__heading-5']/parent::div")
+    QUESTION_7 = (By.XPATH, "//div[@id='accordion__heading-6']/parent::div")
+    QUESTION_8 = (By.XPATH, "//div[@id='accordion__heading-7']/parent::div")
 
     # Ответы раздела "Вопросы о важном":
-    FAQ_ANSWERS_ITEMS = {
-        1: (By.XPATH, "//div[@id='accordion__panel-0']"),
-        2: (By.XPATH, "//div[@id='accordion__panel-1']"),
-        3: (By.XPATH, "//div[@id='accordion__panel-2']"),
-        4: (By.XPATH, "//div[@id='accordion__panel-3']"),
-        5: (By.XPATH, "//div[@id='accordion__panel-4']"),
-        6: (By.XPATH, "//div[@id='accordion__panel-5']"),
-        7: (By.XPATH, "//div[@id='accordion__panel-6']"),
-        8: (By.XPATH, "//div[@id='accordion__panel-7']")
-    }
+    ANSWER_1 = (By.XPATH, "//div[@id='accordion__panel-0']")
+    ANSWER_2 = (By.XPATH, "//div[@id='accordion__panel-1']")
+    ANSWER_3 = (By.XPATH, "//div[@id='accordion__panel-2']")
+    ANSWER_4 = (By.XPATH, "//div[@id='accordion__panel-3']")
+    ANSWER_5 = (By.XPATH, "//div[@id='accordion__panel-4']")
+    ANSWER_6 = (By.XPATH, "//div[@id='accordion__panel-5']")
+    ANSWER_7 = (By.XPATH, "//div[@id='accordion__panel-6']")
+    ANSWER_8 = (By.XPATH, "//div[@id='accordion__panel-7']")

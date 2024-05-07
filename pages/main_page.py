@@ -37,3 +37,7 @@ class MainPage(BasePage):
     @allure.step('Кликнуть по "Яндекс" в лого хэдера')
     def click_header_logo_yandex(self):
         self.click_on_element(BasePageLocators.HEADER_LOGO_YANDEX)
+
+    @allure.step('Проскроллить до раздела "Вопросы о важном "FAQ_SECTION')
+    def scroll_to_faq_section(self):
+        self.scroll_to_element(MainPageLocators.FAQ_SECTION)
