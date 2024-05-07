@@ -13,7 +13,7 @@ class TestRedirectLogo:
         main_page.click_on_order_button_in_header()
         main_page.wait_visibility_header_logo_scooter()
         main_page.click_header_logo_scooter()
-        assert main_page.check_display_main_header
+        assert main_page.check_display_main_header()
 
     @allure.title('Проверка перехода на страницу "Дзена" при клике на лого "Яндекс"')
     def test_logo_redirect_to_dzen_success(self, driver):
