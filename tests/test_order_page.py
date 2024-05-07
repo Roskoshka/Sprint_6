@@ -3,7 +3,6 @@ import pytest
 from conftest import driver
 from pages.order_page import OrderPage
 from locators.base_page_locators import BasePageLocators
-from locators.order_page_locators import OrderPageLocators
 from locators.main_page_locators import MainPageLocators
 from data import *
 

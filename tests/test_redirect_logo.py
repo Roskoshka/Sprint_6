@@ -1,8 +1,6 @@
 import allure
 from conftest import driver
 from pages.main_page import MainPage
-from locators.base_page_locators import BasePageLocators
-from locators.main_page_locators import MainPageLocators
 
 
 class TestRedirectLogo:
